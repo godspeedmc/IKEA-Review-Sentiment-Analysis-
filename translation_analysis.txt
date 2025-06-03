@@ -1,0 +1,320 @@
+IKEA Reviews Translation Analysis
+==============================
+
+1. Language Distribution
+---------------------
+detected_language
+de         1253
+unknown    1221
+en           30
+no           22
+id           15
+et           15
+fr           13
+af           12
+fi           12
+da            8
+sv            7
+nl            5
+es            4
+ro            3
+hr            3
+hu            3
+pl            2
+it            2
+pt            1
+sl            1
+tr            1
+so            1
+sk            1
+lv            1
+vi            1
+Name: count, dtype: int64
+
+2. Sample Translations
+-------------------
+
+Original Language: de
+Rating: 5 stars
+Original text: Schnell und alles gefunden. Klar aufgeteilt.
+Translated text: Schnell und alles gefunden. Klar aufgeteilt.
+--------------------------------------------------------------------------------
+
+Original Language: de
+Rating: 5 stars
+Original text: Wieder sehr schöne Sachen gekauft
+Translated text: Wieder sehr schöne Sachen gekauft
+--------------------------------------------------------------------------------
+
+Original Language: de
+Rating: 3 stars
+Original text: Ikea eben. Nur preiswerter als in Österreich.
+Translated text: Ikea eben. Nur preiswerter als in Österreich.
+--------------------------------------------------------------------------------
+
+Original Language: de
+Rating: 5 stars
+Original text: Wie immer toll
+Translated text: Wie immer toll
+--------------------------------------------------------------------------------
+
+Original Language: de
+Rating: 3 stars
+Original text: Was mich an Ikea stört, ist die Unübersichtlichkeit. Die Pläne, die aushängen, stimmen in vielen Teilen schon lange nicht mehr. Der einzige Weg, hier etwas zu finden, ist alles abzulaufen. Ich meine, das ist so gewollt. Mir passt das …
+Translated text: Was mich an Ikea stört, ist die Unübersichtlichkeit. Die Pläne, die aushängen, stimmen in vielen Teilen schon lange nicht mehr. Der einzige Weg, hier etwas zu finden, ist alles abzulaufen. Ich meine, das ist so gewollt. Mir passt das …
+--------------------------------------------------------------------------------
+
+3. Sentiment Analysis by Language
+------------------------------
+
+Language: de
+Number of reviews: 1253
+Average sentiment polarity: 0.243
+Average rating: 3.97
+Rating distribution:
+rating
+1    122
+2     91
+3    250
+4     27
+5    763
+Name: count, dtype: int64
+
+Language: da
+Number of reviews: 8
+Average sentiment polarity: 0.140
+Average rating: 4.00
+Rating distribution:
+rating
+1    1
+3    2
+5    5
+Name: count, dtype: int64
+
+Language: id
+Number of reviews: 15
+Average sentiment polarity: 0.257
+Average rating: 4.40
+Rating distribution:
+rating
+1     1
+2     1
+3     1
+5    12
+Name: count, dtype: int64
+
+Language: unknown
+Number of reviews: 1221
+Average sentiment polarity: 0.000
+Average rating: 3.38
+Rating distribution:
+rating
+1    137
+2    136
+3    508
+5    440
+Name: count, dtype: int64
+
+Language: ro
+Number of reviews: 3
+Average sentiment polarity: 0.578
+Average rating: 3.67
+Rating distribution:
+rating
+1    1
+5    2
+Name: count, dtype: int64
+
+Language: nl
+Number of reviews: 5
+Average sentiment polarity: 0.270
+Average rating: 4.40
+Rating distribution:
+rating
+2    1
+5    4
+Name: count, dtype: int64
+
+Language: hr
+Number of reviews: 3
+Average sentiment polarity: -0.173
+Average rating: 4.00
+Rating distribution:
+rating
+2    1
+5    2
+Name: count, dtype: int64
+
+Language: et
+Number of reviews: 15
+Average sentiment polarity: 0.142
+Average rating: 4.13
+Rating distribution:
+rating
+2    1
+3    5
+5    9
+Name: count, dtype: int64
+
+Language: pt
+Number of reviews: 1
+Average sentiment polarity: 0.000
+Average rating: 2.00
+Rating distribution:
+rating
+2    1
+Name: count, dtype: int64
+
+Language: sl
+Number of reviews: 1
+Average sentiment polarity: 0.000
+Average rating: 2.00
+Rating distribution:
+rating
+2    1
+Name: count, dtype: int64
+
+Language: sv
+Number of reviews: 7
+Average sentiment polarity: 0.121
+Average rating: 4.57
+Rating distribution:
+rating
+3    1
+4    1
+5    5
+Name: count, dtype: int64
+
+Language: tr
+Number of reviews: 1
+Average sentiment polarity: 0.500
+Average rating: 3.00
+Rating distribution:
+rating
+3    1
+Name: count, dtype: int64
+
+Language: af
+Number of reviews: 12
+Average sentiment polarity: 0.213
+Average rating: 4.83
+Rating distribution:
+rating
+3     1
+5    11
+Name: count, dtype: int64
+
+Language: en
+Number of reviews: 30
+Average sentiment polarity: 0.100
+Average rating: 4.07
+Rating distribution:
+rating
+3    14
+5    16
+Name: count, dtype: int64
+
+Language: no
+Number of reviews: 22
+Average sentiment polarity: 0.220
+Average rating: 4.73
+Rating distribution:
+rating
+3     3
+5    19
+Name: count, dtype: int64
+
+Language: es
+Number of reviews: 4
+Average sentiment polarity: 0.167
+Average rating: 4.50
+Rating distribution:
+rating
+3    1
+5    3
+Name: count, dtype: int64
+
+Language: fi
+Number of reviews: 12
+Average sentiment polarity: 0.000
+Average rating: 4.67
+Rating distribution:
+rating
+3     2
+5    10
+Name: count, dtype: int64
+
+Language: pl
+Number of reviews: 2
+Average sentiment polarity: 0.250
+Average rating: 4.00
+Rating distribution:
+rating
+3    1
+5    1
+Name: count, dtype: int64
+
+Language: so
+Number of reviews: 1
+Average sentiment polarity: 0.000
+Average rating: 3.00
+Rating distribution:
+rating
+3    1
+Name: count, dtype: int64
+
+Language: hu
+Number of reviews: 3
+Average sentiment polarity: -0.083
+Average rating: 4.33
+Rating distribution:
+rating
+3    1
+5    2
+Name: count, dtype: int64
+
+Language: fr
+Number of reviews: 13
+Average sentiment polarity: 0.157
+Average rating: 4.69
+Rating distribution:
+rating
+3     2
+5    11
+Name: count, dtype: int64
+
+Language: sk
+Number of reviews: 1
+Average sentiment polarity: 0.533
+Average rating: 3.00
+Rating distribution:
+rating
+3    1
+Name: count, dtype: int64
+
+Language: lv
+Number of reviews: 1
+Average sentiment polarity: 0.000
+Average rating: 5.00
+Rating distribution:
+rating
+5    1
+Name: count, dtype: int64
+
+Language: it
+Number of reviews: 2
+Average sentiment polarity: 0.333
+Average rating: 5.00
+Rating distribution:
+rating
+5    2
+Name: count, dtype: int64
+
+Language: vi
+Number of reviews: 1
+Average sentiment polarity: 0.542
+Average rating: 5.00
+Rating distribution:
+rating
+5    1
+Name: count, dtype: int64

@@ -1,0 +1,63 @@
+IKEA Reviews Language Analysis
+============================
+
+Language Distribution:
+detected_language
+de         1253
+unknown    1221
+en           31
+no           21
+et           15
+id           14
+fr           13
+fi           11
+da           10
+af           10
+sv            7
+nl            7
+es            5
+hu            4
+hr            3
+ca            2
+ro            2
+pt            1
+pl            1
+sl            1
+tr            1
+sk            1
+so            1
+it            1
+vi            1
+Name: count, dtype: int64
+
+Sample Reviews with Translations:
+
+Original (de):
+Sehr gutes und reichhaltiges Sortiment, das übersichtlich präsentiert wird. Hervorragendes Restaurant mit bekanntlich unschlagbaren Preisen.
+Translated:
+Very good and rich range that is clearly presented. Excellent restaurant with known prices.
+--------------------------------------------------
+
+Original (de):
+Sehr gut organisiert. Jeder findet sein Teil.
+Translated:
+Very well organized. Everyone finds their part.
+--------------------------------------------------
+
+Original (de):
+50 km umsonst gefahren .Warum kann man einen Umbau im Untergeschoss nicht vorher bekannt geben 👎👎👎👎👎👎👎👎👎👎👎👎
+Translated:
+50 km driven for free.
+--------------------------------------------------
+
+Original (de):
+Zu lange warten beim einkaufen
+Translated:
+Waiting for too long while shopping
+--------------------------------------------------
+
+Original (de):
+Ich liebe ikea
+Translated:
+I love Ikea
+--------------------------------------------------

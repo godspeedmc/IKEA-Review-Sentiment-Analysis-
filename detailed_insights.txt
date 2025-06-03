@@ -1,0 +1,97 @@
+IKEA Reviews Detailed Analysis
+============================
+
+1. Language Statistics
+-------------------
+Language distribution:
+detected_language
+de         1253
+unknown    1221
+en           31
+no           21
+et           15
+id           14
+fr           13
+fi           11
+da           10
+af           10
+sv            7
+nl            7
+es            5
+hu            4
+hr            3
+ca            2
+ro            2
+pt            1
+pl            1
+sl            1
+tr            1
+sk            1
+so            1
+it            1
+vi            1
+Name: count, dtype: int64
+
+2. Sentiment Analysis
+------------------
+Sentiment Category Distribution:
+sentiment_category
+Neutral          1481
+Very Positive     573
+Positive          352
+Negative          169
+Very Negative      62
+Name: count, dtype: int64
+
+Average sentiment by language:
+detected_language
+af         0.243750
+ca         0.508333
+da         0.200000
+de         0.238894
+en         0.108642
+es         0.540000
+et         0.205000
+fi         0.000000
+fr         0.396808
+hr        -0.173333
+hu         0.450000
+id         0.251488
+it         0.500000
+nl         0.357143
+no         0.450794
+pl         0.500000
+pt         0.000000
+ro         0.450000
+sk         0.533333
+sl         0.000000
+so         0.500000
+sv         0.207143
+tr         0.500000
+unknown    0.000000
+vi         0.541667
+Name: sentiment_polarity, dtype: float64
+
+3. Topic Analysis (from translated text)
+----------------------------------
+
+Positive Review Topics:
+Topic 1: friendly, parking, lot, staff, spaces, good, employees, helpful, ikea, huge
+Topic 2: ikea, halt, love, just, like, stop, say, typical, great, big
+Topic 3: good, great, super, pleasure, selection, large, worth, ikea, hot, beautiful
+Topic 4: furniture, need, store, ikea, don, great, best, large, prices, like
+Topic 5: nice, ikea, staff, employees, good, cheap, furniture, thanks, ideas, advice
+
+Negative Review Topics:
+Topic 1: did, use, notice, didn, customers, just, unfortunately, ikea, works, board
+Topic 2: ikea, cash, time, unfortunately, service, unfriendly, bad, register, long, like
+Topic 3: know, electrical, employee, wanted, want, small, rth, employees, unfortunately, board
+Topic 4: things, sell, overall, understand, parts, absolutely, kitchen, shopping, bought, work
+Topic 5: crowded, low, totally, children, advice, overcrowded, buy, original, translated, staff
+
+Neutral Review Topics:
+Topic 1: price, ok, service, peak, totally, times, people, overcrowded, nearby, stressful
+Topic 2: ikea, like, halt, typical, normal, just, furniture, stops, store, overcrowded
+Topic 3: long, waiting, cash, register, times, time, ways, coffers, snakes, health
+Topic 4: available, rebuilt, goods, currently, advice, mass, usual, market, better, stars
+Topic 5: good, google, furniture, translated, unfortunately, original, ok, overcrowded, selection, don

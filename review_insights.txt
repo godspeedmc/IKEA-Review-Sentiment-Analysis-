@@ -1,0 +1,68 @@
+IKEA Reviews Analysis
+====================
+
+Total number of reviews: 2637
+Number of empty reviews: 1211
+Average rating: 3.72
+
+Rating distribution:
+rating
+1     262
+2     233
+3     795
+4      28
+5    1319
+Name: count, dtype: int64
+
+Average sentiment by rating:
+rating
+1    0.007590
+2    0.007010
+3    0.019860
+4    0.050595
+5    0.056495
+Name: sentiment, dtype: float64
+
+Most common words in positive reviews (4-5 stars):
+ikea: 312
+und: 299
+immer: 263
+man: 207
+ist: 181
+sehr: 159
+die: 140
+ich: 127
+der: 118
+wieder: 117
+alles: 113
+das: 108
+gut: 105
+ein: 102
+wie: 93
+super: 92
+auch: 83
+mit: 83
+nicht: 76
+essen: 66
+
+Most common words in negative reviews (1-2 stars):
+und: 111
+die: 107
+der: 88
+nicht: 86
+ikea: 77
+ich: 73
+ist: 65
+man: 58
+das: 54
+ein: 45
+eine: 43
+mit: 41
+war: 39
+den: 39
+nur: 36
+sehr: 33
+von: 31
+bei: 27
+auf: 26
+aber: 25
